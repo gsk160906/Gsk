@@ -1,0 +1,114 @@
+.nav-bg{
+    background-image: url("https://res.cloudinary.com/dnan3gcy9/image/upload/v1751545534/image_ac5l8c.jpg");
+    background-size: cover;
+}
+.logo{
+    height: 85px;
+    width: 90px;
+}
+.btn1{
+    background-color: #e50914;
+    color: white;
+    padding: 6px;
+    border-radius: 8px;
+    border-width: 0px;
+    width: 90px;
+    font-weight: bold;
+}
+.homebg{
+    background-image: url("https://res.cloudinary.com/dnan3gcy9/image/upload/v1751647801/image_3_ln7axr.jpg");
+    background-size: cover;
+    text-align: center;
+    height: 60vh;
+}
+
+.head1{
+    color: white;
+    font-size: 300%;
+    font-weight: bolder;
+}
+.para1{
+    color: white;
+}
+.btn2{
+    background-color: transparent;
+    color: white;
+    width: 350px;
+    height: 60px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.btn3{
+    background-color: #e50914;
+    color: white;
+    border-radius: 5px;
+    border-width: 0px;
+    width: 150px;
+    height: 60px;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+.aligncenter{
+    margin-top: 200px;
+}
+.trending-bg{
+    background-image: linear-gradient(to bottom,#060a3d,black);
+}
+.head2{
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.trendimg{
+    height: 250px;
+    width: 18%;
+}
+.bg-full{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.box{
+    background-image: linear-gradient(to right,#1b1f3f,#1e172c,#20101d);
+    border-radius: 15px;
+}
+.logoimg{
+    height: 60px;
+    width: 60px;
+}
+.btn4{
+    height: 85px;
+    color: white;
+    font-weight: 800px;
+    font-size: 20px;
+    padding: 20px;
+    width: 100%;
+}
+.head3{
+    font-size: 20px;
+}
+.btn5{
+    background-color: transparent;
+    color: white;
+    width: 550px;
+    height: 60px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.btn6{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+.under{
+    text-decoration: underline;
+}
+.little{
+    font-size: 15px;
+    color: white;
+}
+.verylittle{
+    font-size: 13px;
+    color: grey;
+}
