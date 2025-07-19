@@ -3,8 +3,8 @@
     background-size: cover;
 }
 .logo{
-    height: 85px;
-    width: 90px;
+    height: 100px;
+    width: 120px;
 }
 .btn1{
     background-color: #e50914;
@@ -15,11 +15,15 @@
     width: 90px;
     font-weight: bold;
 }
+.btn1:hover{
+    background-color: rgb(137, 12, 12);
+    transition: background-color 0.15s;
+}
 .homebg{
     background-image: url("https://res.cloudinary.com/dnan3gcy9/image/upload/v1751647801/image_3_ln7axr.jpg");
     background-size: cover;
     text-align: center;
-    padding-botton: 350px;
+    padding-bottom: 300px;
 }
 
 .head1{
@@ -37,7 +41,9 @@
     height: 60px;
     border-radius: 5px;
     padding-left: 20px;
+    border-color: rgb(202, 196, 196);
 }
+
 .btn3{
     background-color: #e50914;
     color: white;
@@ -48,6 +54,10 @@
     font-weight: bolder;
     font-size: 20px;
     text-align: center;
+    transition: background-color 0.15s;
+}
+.btn3:hover{
+    background-color: rgb(137, 12, 12);
 }
 .aligncenter{
     margin-top: 200px;
@@ -60,9 +70,23 @@
     font-size: 18px;
     margin-top: 15px;
 }
+.imagealign{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
 .trendimg{
-    height: 250px;
-    width: 18%;
+    height: 90%;
+    width: 80%;
+    cursor: pointer;
+    transition: opacity 0.15s,width 0.15s,height 0.15s;
+}
+.trendimg:hover{
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+}
+.trendimg:active{
+    opacity: 0.5;
 }
 .bg-full{
     background-color: black;
@@ -72,6 +96,14 @@
 .box{
     background-image: linear-gradient(to right,#1b1f3f,#1e172c,#20101d);
     border-radius: 15px;
+    cursor: pointer;
+    transition: opacity 0.15;
+}
+.box:hover{
+    opacity: 0.7;
+}
+.box:active{
+    opacity: 0.5;
 }
 .logoimg{
     height: 60px;
@@ -83,7 +115,17 @@
     font-weight: 800px;
     font-size: 20px;
     padding: 20px;
+    background-color: #343a40;
     width: 100%;
+    transition: opacity 0.15,height 0.15s;
+    border: none;
+}
+.btn4:hover{
+    opacity: 0.7;
+    height: 95px;
+}
+.btn4:active{
+    opacity: 0.5;
 }
 .head3{
     font-size: 20px;
@@ -95,7 +137,10 @@
     height: 60px;
     border-radius: 5px;
     padding-left: 20px;
+    border-color: white;
+    
 }
+
 .btn6{
     background-color: transparent;
     color: white;
@@ -103,6 +148,7 @@
 }
 .under{
     text-decoration: underline;
+    cursor: pointer;
 }
 .little{
     font-size: 15px;
